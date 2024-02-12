@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<table>
+<tr>
+<td><a href="pen.html" > 
+<img src="pen.jpg" width="200" height="200" href=""><br>
+</a> </td>
+
+<td> <a href="pencil.html" >
+<img src="pencil.jpg" width="200" height="200"><br>
+</a> 
+</td>
+
+<td>  <a href="pen.htm" >
+<img src="shoe.jpg" width="200" height="200"><br>
+</a></td>
+
+</tr>
+
+
+<tr>
+<td>  <a href="pen.htm" >
+<img src="mob.jpg" width="200" height="200"><br>
+</a></td>
+
+<td>  <a href="pen.htm" >
+<img src="lap.jpg" width="200" height="200"><br>
+</a></td>
+
+<td>  <a href="pen.htm" >
+<img src="bot.jpg" width="200" height="200"><br>
+</a></td>
+
+</tr>
+
+
+<tr>
+<td>  <a href="pen.htm" >
+<img src="hed.jpg" width="200" height="200"><br>
+</a></td>
+
+<td>  <a href="pen.htm" >
+<img src="fash.webp" width="200" height="200"><br>
+</a></td>
+
+<td>  <a href="pen.htm" >
+<img src="bag.jpg" width="200" height="200"><br>
+</a></td>
+
+</tr>
+</table>
+
+</body>
+</html>

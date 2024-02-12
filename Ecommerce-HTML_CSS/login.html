@@ -1,0 +1,59 @@
+<html>
+ <head>
+ 
+ <title>
+ Login page
+  </title>
+  <style>
+ body {
+	background-color:gray;		
+}
+form{
+background-color:#C7C5F4;	
+padding-top:50px;
+padding-bottom:50px;
+padding-right:50px;
+
+border-radius:40px;
+margin-left:250px;
+margin-right:250px;
+text-align:center;
+}
+input{
+border-radius:60px;
+}
+#a{
+background-color:cyan;
+}
+  </style>
+ <script language="javascript">
+ function check()
+ {
+ var m="manoj"
+ var p=1234;
+ if(document.forms["login"].userid.value == m && document.forms["login"].pswrd.value ==
+p)
+ {
+ window.open('w.html')
+ }
+ else
+ {
+ alert("invalid Password or Username")
+ }
+ }
+ </script>
+ </head>
+ <body>
+<h1 style="color:red;font-size:20pt;"
+ ><center>
+ Login Page</center>
+ </h1>
+ <form name="login">
+ Username<input type="text" name="userid"/><br><br>
+ Password<input type="password" name="pswrd"/><br><br>
+ <input id="a" type="button" onclick="check(this.form)" value="Login"/>&nbsp &nbsp
+ <input id="a" type="reset" value="Cancel"/>
+ </form>
+ 
+ </body>
+ </html>
